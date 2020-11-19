@@ -30,6 +30,6 @@ $ npm start
 <img src="Screenshot_2020-11-20-01-41-08-367_com.mikasa69.MyTSProject.jpg" width="200" height="400" />
 
 
-### Source Base Design by
+### Source Reference Design by
 
 *https://www.instagram.com/uisource/?igshid=1jib4zqad4xza
