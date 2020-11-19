@@ -6,17 +6,32 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Home: {
             screens: {
-              TabOneScreen: 'one',
+              HomeScreen: 'home',
             },
           },
-          TabTwo: {
+          Plan: {
             screens: {
-              TabTwoScreen: 'two',
+              PlanScreen: 'plan',
             },
+          },
+          Explore:{
+            screens:{
+              ExploreScreen: "explore"
+            }
+          },
+          Profile:{
+            screens:{
+              ExploreScreen: "profile"
+            }
           },
         },
+      },
+      DetailPlace:{
+        screens:{
+          ExploreScreen: "detail"
+        }
       },
       NotFound: '*',
     },

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Kudus Indonesia",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F85%2FMasjid_Menara_Kudus.jpg%2F1200px-Masjid_Menara_Kudus.jpg&f=1&nofb=1",
+    "banner": "https://media-cdn.tripadvisor.com/media/photo-o/0b/d7/bc/93/p-20160704-170349-1-p.jpg",
+    "description": "Kudus is the capital and the namesake of the Kudus Regency in Central Java, Indonesia. Its name has an Arabic etymology connected to its foundation by the legendary figure Sunan Kudus. According to the 2010 census, its population was 92,776.",
+    "rating": 4.5
+  },
+  {
+    "name": "Bali Indonesia",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftravelisfree.com%2Fwp-content%2Fuploads%2F2013%2F06%2FBali-Indonesia.jpg&f=1&nofb=1",
+    "banner": "https://images.unsplash.com/photo-1532186651327-6ac23687d189?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=687&q=80",
+    "description": "Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan.",
+    "rating": 3.5
+  },
+  {
+    "name": "Yogyakarta Indonesia",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.expatgo.com%2Fmy%2Fwp-content%2Fuploads%2F2015%2F10%2FINDO437D-Buddha-Borobudur-Temple.jpg&f=1&nofb=1",
+    "banner": "https://media-cdn.tripadvisor.com/media/photo-o/0b/8b/35/1e/yogyakarta-sunset-in.jpg",
+    "description": "Yogyakarta is the capital city of Special Region of Yogyakarta in Indonesia, on the island of Java. As the only Indonesian royal city still ruled by a monarchy, Yogyakarta is regarded as an important centre for classical Javanese fine arts and culture such as ballet, batik textiles, drama, literature, music, poetry, silversmithing, visual arts, and wayang puppetry.",
+    "rating": 1.5
+  },
+  {
+    "name": "Wonosobo Indonesia",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F05%2Ff6%2F8e%2F4b%2Fwonosobo-indonesia.jpg&f=1&nofb=1",
+    "banner": "https://media-cdn.tripadvisor.com/media/photo-o/0d/cd/be/d5/yogyakarta-cultural-heritage.jpg",
+    "description": "Yogyakarta is the capital city of Special Region of Yogyakarta in Indonesia, on the island of Java. As the only Indonesian royal city still ruled by a monarchy, Yogyakarta is regarded as an important centre for classical Javanese fine arts and culture such as ballet, batik textiles, drama, literature, music, poetry, silversmithing, visual arts, and wayang puppetry.",
+    "rating": 0.5
+  }
+]

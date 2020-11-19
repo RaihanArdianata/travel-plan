@@ -5,31 +5,43 @@ import * as React from 'react';
 
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
-import TabOneScreen from '../screens/TabOneScreen';
-import TabTwoScreen from '../screens/TabTwoScreen';
-import { BottomTabParamList, TabOneParamList, TabTwoParamList } from '../types';
+//screen
+import HomeScreen from '../screens/TabOneScreen';
+import PlanScreen from '../screens/TabTwoScreen';
+import ExploreScreen from '../screens/ExploreScreen';
+import DetailPlaceScreen from '../screens/DetailPlaceScreen'
+import { BottomTabParamList, ExploreParamList, HomeParamList, PlanParamList } from '../types';
 
+//get all params from bottom tab
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
 export default function BottomTabNavigator() {
   const colorScheme = useColorScheme();
+  console.log(colorScheme);
 
   return (
     <BottomTab.Navigator
-      initialRouteName="TabOne"
+      initialRouteName="Explore"
       tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
       <BottomTab.Screen
-        name="TabOne"
-        component={TabOneNavigator}
+        name="Home"
+        component={HomeNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="md-home" color={color} />,
         }}
       />
       <BottomTab.Screen
-        name="TabTwo"
-        component={TabTwoNavigator}
+        name="Plans"
+        component={PlanNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="md-calendar" color={color} />,
+        }}
+      />
+      <BottomTab.Screen
+        name="Explore"
+        component={ExploreNavigator}
+        options={{
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-compass" color={color} />,
         }}
       />
     </BottomTab.Navigator>
@@ -44,30 +56,50 @@ function TabBarIcon(props: { name: string; color: string }) {
 
 // Each tab has its own navigation stack, you can read more about this pattern here:
 // https://reactnavigation.org/docs/tab-based-navigation#a-stack-navigator-for-each-tab
-const TabOneStack = createStackNavigator<TabOneParamList>();
+const HomeStack = createStackNavigator<HomeParamList>();
 
-function TabOneNavigator() {
+function HomeNavigator() {
   return (
-    <TabOneStack.Navigator>
-      <TabOneStack.Screen
-        name="TabOneScreen"
-        component={TabOneScreen}
-        options={{ headerTitle: 'Tab One Title' }}
+    <HomeStack.Navigator>
+      <HomeStack.Screen
+        name="HomeScreen"
+        component={HomeScreen}
+        options={{ headerTitle: 'Home Title' }}
       />
-    </TabOneStack.Navigator>
+    </HomeStack.Navigator>
   );
 }
 
-const TabTwoStack = createStackNavigator<TabTwoParamList>();
+const PlanStack = createStackNavigator<PlanParamList>();
 
-function TabTwoNavigator() {
+function PlanNavigator() {
   return (
-    <TabTwoStack.Navigator>
-      <TabTwoStack.Screen
-        name="TabTwoScreen"
-        component={TabTwoScreen}
-        options={{ headerTitle: 'Tab Two Title' }}
+    <PlanStack.Navigator>
+      <PlanStack.Screen
+        name="PlanScreen"
+        component={PlanScreen}
+        options={{ headerTitle: 'Plan Title' }}
       />
-    </TabTwoStack.Navigator>
+    </PlanStack.Navigator>
   );
+}
+
+const ExploreStack =  createStackNavigator<ExploreParamList>();
+
+function ExploreNavigator() {
+  return(
+    <ExploreStack.Navigator>
+      <ExploreStack.Screen
+        name="ExploreScreen"
+        component={ExploreScreen}
+        options={{headerShown: false}}
+      />
+      {/* <ExploreStack.Screen
+          name="PlaceDetailScreen"
+          component={DetailPlaceScreen}
+          options={{headerShown: false}}
+
+        /> */}
+    </ExploreStack.Navigator>
+  )
 }

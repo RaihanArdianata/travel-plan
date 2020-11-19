@@ -11,14 +11,16 @@ export default function useCachedResources() {
     async function loadResourcesAndDataAsync() {
       try {
         SplashScreen.preventAutoHideAsync();
-
         // Load fonts
         await Font.loadAsync({
           ...Ionicons.font,
           'space-mono': require('../assets/fonts/SpaceMono-Regular.ttf'),
+          'billy-signature': require('../assets/fonts/Billy-Signature-Slant.ttf'),
         });
       } catch (e) {
         // We might want to provide this error information to an error reporting service
+        console.log(e, '--------------------------');
+
         console.warn(e);
       } finally {
         setLoadingComplete(true);
@@ -27,7 +29,7 @@ export default function useCachedResources() {
     }
 
     loadResourcesAndDataAsync();
-  }, []);
+  }, [isLoadingComplete]);
 
   return isLoadingComplete;
 }

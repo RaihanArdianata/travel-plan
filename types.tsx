@@ -1,17 +1,30 @@
 export type RootStackParamList = {
   Root: undefined;
+  PlaceDetailScreen: undefined;
+  CreateTrip: undefined;
   NotFound: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  Plans: undefined;
+  Explore: undefined;
+  Profile: undefined
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type HomeParamList = {
+  HomeScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type PlanParamList = {
+  PlanScreen: undefined;
 };
+
+export type ExploreParamList = {
+  ExploreScreen: undefined
+  PlaceDetailScreen: undefined;
+}
+
+export type ProfileParamList = {
+  ProfileScreen: undefined
+}
