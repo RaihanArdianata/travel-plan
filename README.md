@@ -26,8 +26,8 @@ $ npm start
 
 ### Source Image App
 
-![](./Screenshot_2020-11-20-01-41-42-049_com.mikasa69.MyTSProject.jpg =250x250)
 <img src="./Screenshot_2020-11-20-01-41-42-049_com.mikasa69.MyTSProject.jpg" width="200" height="400" />
+<img src="Screenshot_2020-11-20-01-41-08-367_com.mikasa69.MyTSProject.jpg" width="200" height="400" />
 
 
 ### Source Base Design by
