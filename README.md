@@ -8,7 +8,7 @@
 
 Dillinger uses a number of open source projects to work properly:
 
-* [Expo React Native Typescript Template with react navigation] - Expo is an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React.
+* [Expo React Native Typescript Template with react-navigation] - Expo is an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React.
 * [React Navigation] - Routing and navigation for your React Native apps
 * [React Native Element] - Cross Platform React Native UI Toolkit
 
