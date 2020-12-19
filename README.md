@@ -1,8 +1,6 @@
 # travel-plan
 
 [![N|Solid](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/330px-React-icon.svg.png)](https://reactnative.dev/)
-[![N|Solid](https://duckduckgo.com/i/a65969b4.png)](https://duckduckgo.com/i/a65969b4.png)
-[![N|Solid](https://jwt.io/img/pic_logo.svg)](https://jwt.io/)
 
 
 ### Tech
